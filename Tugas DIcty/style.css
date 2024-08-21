@@ -1,0 +1,77 @@
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h1 span{
+    color: rgb(0, 81, 255, 0.8);
+
+}
+h1 {
+    font-weight: 700;
+    color: red;
+}
+.biodata {
+    
+
+}
+
+tr, th, td{
+    border: 1px solid black;
+}
+
+.topLeft {
+    border-top-left-radius: 50px;
+}
+
+.topRight {
+    border-top-right-radius: 50px;
+}
+
+.botLeft {
+    border-bottom-left-radius: 50px;
+}
+.botRight {
+    border-bottom-right-radius: 50px;
+}
+
+table {
+    background-color: yellow;
+    border-radius: 50px;
+    border: 4px solid black;
+    width: 600px;
+    /* display: none; */
+}
+
+.linksaya{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    border-radius: 20px;
+}
+
+body{
+    background-image: url(GambarDicty/minimalist-desktop-wallpaper-800x457.jpg);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#btn {
+    background-color: aliceblue;
+    border-radius: 10px;
+    gap: 1rem;
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+}
